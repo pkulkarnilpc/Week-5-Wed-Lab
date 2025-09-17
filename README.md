@@ -1,13 +1,12 @@
-# Lab 7, Part A
+# Week 5 Wed Lab
 
 ## Directions
 
-For the first part of the lab activity, you are going to implement a recursive solution to finding a maximum through the tail method discussed in lecture. The `main` function has already been written for you to run test cases. The output from your function needs to match with the fixed output.
+The Ackermann function A(x,y) is defined for integer x and y by
+<p>
+<img width="496" height="113" alt="Screenshot 2025-09-16 at 7 41 17 PM" 
+  src="https://github.com/user-attachments/assets/9abfcd03-2564-42a0-8270-8f340743f9c3" />
+</p>
 
-The `findMaxRecTail` function has 3 parameters:
+Implement this function using recursion and print the value of A(3,4).
 
-1. `arr` - a constant array containing the elements
-2. `SIZE` - a constant integer that holds the number of elements in `arr`
-3. `i` - an integer that represents the current position of the "head" of `arr`, with a default value of 0
-
-To continue practicing how to analyze code, you are suggested to perform a time complexity analysis. You can do so as a comment block above the function.
